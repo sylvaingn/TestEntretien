@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#first {
+    height: 200px;
+    width: 70%;
+    text-align: center;
+    border: 1px solid #ccc;
+    overflow: auto;
+}
+
+#first:first-child {
+    color: black;
+}
+
+#first:last-child {
+    color: white;
+}
+
+button {
+    height: 60px;
+    width: 170px;
+    text-align: center;
+    border-radius: 10px;
+    border: 0px;
+    padding: 0;
+    margin-top: 40px;
+}

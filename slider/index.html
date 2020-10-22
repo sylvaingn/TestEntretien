@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Test</title>
+</head>
+
+<body>
+
+    <main>
+        <div id="slider">
+            <div id="inside">
+                <div id="cards">
+
+                    <div id='first' class="slide">
+                        <p>1</p>
+                        <div for='second' class="arrow rightArrow">&gt;</div>
+                    </div>
+
+                    <div id='second' class="slide">
+                        <div for='first' class="arrow leftArrow">&lt;</div>
+                        <p>2</p>
+                        <div for='third' class="arrow rightArrow">&gt;</div>
+                    </div>
+
+                    <div id='third' class="slide">
+                        <div for='second' class="arrow leftArrow">&lt;</div>
+                        <p>3</p>
+                        <div for='fourth' class="arrow rightArrow">&gt;</div>
+                    </div>
+
+                    <div id='fourth' class="slide">
+                        <div for='third' class="arrow leftArrow">&lt;</div>
+                        <p>4</p>
+                        <div for='fifth' class="arrow rightArrow">&gt;</div>
+                    </div>
+
+                    <div id='fifth' class="slide">
+                        <div for='fourth' class="arrow leftArrow">&lt;</div>
+                        <p>5</p>
+                    </div>
+
+                </div>
+            </div>
+            <button id="play">Play</button>
+            <button id="stop">Stop</button>
+        </div>
+
+
+
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
